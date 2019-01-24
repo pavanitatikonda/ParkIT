@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParkIT.SlotsPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout x:Name="stackLayoutOuter" BackgroundColor="Beige" Padding="20">
+                <Button Text="View Map" Clicked="Button_Clicked_1"/>
+                <!--<ListView x:Name="listView" HasUnevenRows="False" SeparatorVisibility="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid  BackgroundColor="LightPink" Margin="5" HorizontalOptions="Center" VerticalOptions="Center" Padding="20">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Frame x:Name="frame1"  Grid.Row="0" Grid.Column="0" BackgroundColor="White" HeightRequest="100" WidthRequest="10" HasShadow="True">
+                                    <Button x:Name="btnId1" Text="{Binding ID}" BackgroundColor="{Binding Status, Converter={StaticResource StatustoColorConverter}}" Clicked="Button_Clicked"  Margin="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Button>
+                                </Frame>
+                                <Frame x:Name="frame2" Grid.Row="0" Grid.Column="1" BackgroundColor="White" HeightRequest="100" WidthRequest="10" HasShadow="True">
+                                    <Button x:Name="btnId2" Clicked="Button_Clicked" Text="{Binding ID}" BackgroundColor="{Binding Status, Converter={StaticResource StatustoColorConverter}}" HorizontalOptions="Fill" VerticalOptions="Fill"></Button>
+                                </Frame>
+                                <Frame x:Name="frame3" Grid.Row="0" Grid.Column="2" BackgroundColor="White" HeightRequest="100" WidthRequest="10" HasShadow="True">
+                                    <Button x:Name="btnId3" Clicked="Button_Clicked" Text="{Binding ID}" BackgroundColor="{Binding Status, Converter={StaticResource StatustoColorConverter}}" HorizontalOptions="Fill" VerticalOptions="Fill"></Button>
+                                </Frame>
+                                <Frame x:Name="frame4" Grid.Row="1" Grid.Column="0" BackgroundColor="White" HeightRequest="100" WidthRequest="10" HasShadow="True">
+                                    <Button x:Name="btnId4" Clicked="Button_Clicked" Text="{Binding ID}" BackgroundColor="{Binding Status, Converter={StaticResource StatustoColorConverter}}" HorizontalOptions="Fill" VerticalOptions="Fill"></Button>
+                                </Frame>
+                                <Frame x:Name="frame5" Grid.Row="1" Grid.Column="1" BackgroundColor="White" HeightRequest="100" WidthRequest="10" HasShadow="True">
+                                    <Button x:Name="btnId5" Clicked="Button_Clicked" Text="{Binding ID}" BackgroundColor="{Binding Status, Converter={StaticResource StatustoColorConverter}}" HorizontalOptions="Fill" VerticalOptions="Fill"></Button>
+                                </Frame>
+                                <Frame x:Name="frame6" Grid.Row="1" Grid.Column="2" BackgroundColor="White" HeightRequest="100" WidthRequest="10" HasShadow="True">
+                                    <Button x:Name="btnId6" Clicked="Button_Clicked" Text="{Binding ID}" BackgroundColor="{Binding Status, Converter={StaticResource StatustoColorConverter}}" HorizontalOptions="Fill" VerticalOptions="Fill"></Button>
+                                </Frame>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>-->
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
